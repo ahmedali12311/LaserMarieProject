@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sectionss_sectionsses",
+  "info": {
+    "displayName": "sectionss",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lists.lists"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": false,
+      "component": "list.list"
+    }
+  }
+}

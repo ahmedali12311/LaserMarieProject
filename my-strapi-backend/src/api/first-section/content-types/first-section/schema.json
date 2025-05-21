@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "first_sections",
+  "info": {
+    "singularName": "first-section",
+    "pluralName": "first-sections",
+    "displayName": "FirstSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Highlighted_text": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cta_text": {
+      "type": "string"
+    },
+    "show_arrow_icon": {
+      "type": "boolean"
+    },
+    "show_phone_button": {
+      "type": "boolean"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "alternate"
+      ]
+    },
+    "slider_images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social.social"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

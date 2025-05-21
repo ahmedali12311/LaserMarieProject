@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_us_pages",
+  "info": {
+    "singularName": "contact-us-page",
+    "pluralName": "contact-us-pages",
+    "displayName": "ContactUsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "buttons": {
+      "displayName": "buttons",
+      "type": "component",
+      "repeatable": true,
+      "component": "buttons.buttons"
+    },
+    "footer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::footer.footer"
+    }
+  }
+}

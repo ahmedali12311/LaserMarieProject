@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nieuws_pages",
+  "info": {
+    "singularName": "nieuws-page",
+    "pluralName": "nieuws-pages",
+    "displayName": "nieuwsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.contact"
+    },
+    "News_title": {
+      "type": "string"
+    },
+    "NewsCardItem": {
+      "displayName": "NewsCardItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "news-card-item.news-card-item"
+    }
+  }
+}

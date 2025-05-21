@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_bliftop_main_content_bliftop_main_contents",
+  "info": {
+    "displayName": "bliftop_main_content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionss": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sectionss.sectionss"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

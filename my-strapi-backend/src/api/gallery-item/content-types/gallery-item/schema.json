@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gallery_items",
+  "info": {
+    "singularName": "gallery-item",
+    "pluralName": "gallery-items",
+    "displayName": "gallery-item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "GalleryItem": {
+      "displayName": "GalleryItem",
+      "type": "component",
+      "repeatable": false,
+      "component": "gallery-item.gallery-item"
+    },
+    "ContactSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-section.contact-section"
+    }
+  }
+}

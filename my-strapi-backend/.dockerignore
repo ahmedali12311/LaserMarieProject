@@ -1,0 +1,19 @@
+.env
+node_modules/
+build/
+dist/
+.cache/
+public/uploads/
+*.log
+############################
+# Tests
+############################
+
+coverage
+# Strapi
+my-strapi-backend/.env
+my-strapi-backend/build/
+my-strapi-backend/dist/
+my-strapi-backend/.cache/
+my-strapi-backend/public/uploads/
+my-strapi-backend/*.log

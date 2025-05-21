@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_listsitem_listsitems",
+  "info": {
+    "displayName": "listsitem"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "isBald": {
+      "type": "boolean"
+    }
+  }
+}

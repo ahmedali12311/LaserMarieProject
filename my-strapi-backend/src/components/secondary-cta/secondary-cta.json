@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_secondary_cta_secondary_ctas",
+  "info": {
+    "displayName": "SecondaryCTA"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

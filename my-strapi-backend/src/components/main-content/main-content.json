@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_main_content_main_contents",
+  "info": {
+    "displayName": "main_content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.section"
+    }
+  }
+}

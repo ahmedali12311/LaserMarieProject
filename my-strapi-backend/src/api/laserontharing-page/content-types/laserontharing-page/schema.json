@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "laserontharing_pages",
+  "info": {
+    "singularName": "laserontharing-page",
+    "pluralName": "laserontharing-pages",
+    "displayName": "LaserontharingPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "header_title": {
+      "type": "text"
+    },
+    "first_section_description": {
+      "type": "text"
+    },
+    "first_section_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "first_section_image_alt": {
+      "type": "string"
+    },
+    "benefits_title": {
+      "type": "string"
+    },
+    "benefits_description": {
+      "type": "text"
+    },
+    "when_title": {
+      "type": "string"
+    },
+    "when_description": {
+      "type": "text"
+    },
+    "limitation_title": {
+      "type": "string"
+    },
+    "limitations_description": {
+      "type": "text"
+    },
+    "contact_title": {
+      "type": "string"
+    },
+    "contact_description": {
+      "type": "text"
+    },
+    "contact_button_url": {
+      "type": "string"
+    },
+    "contact_button_text": {
+      "type": "string"
+    },
+    "appointment_button_url": {
+      "type": "string"
+    },
+    "appointment_button_text": {
+      "type": "string"
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social.social"
+    }
+  }
+}

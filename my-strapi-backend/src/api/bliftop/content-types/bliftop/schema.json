@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bliftops",
+  "info": {
+    "singularName": "bliftop",
+    "pluralName": "bliftops",
+    "displayName": "BliftopPages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "bliftop_main_content": {
+      "displayName": "bliftop_main_content",
+      "type": "component",
+      "repeatable": false,
+      "component": "bliftop-main-content.bliftop-main-content"
+    },
+    "ContactSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact"
+    }
+  }
+}

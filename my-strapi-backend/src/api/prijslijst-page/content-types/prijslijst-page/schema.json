@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prijslijst_pages",
+  "info": {
+    "singularName": "prijslijst-page",
+    "pluralName": "prijslijst-pages",
+    "displayName": "PrijslijstPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pricing_sections": {
+      "displayName": "pricing_sections ",
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-section.pricing-sections"
+    },
+    "contact_title": {
+      "type": "string"
+    },
+    "contact_description": {
+      "type": "text"
+    },
+    "contact_button_url": {
+      "type": "string"
+    },
+    "contact_button_text": {
+      "type": "string"
+    },
+    "appointment_button_url": {
+      "type": "string"
+    },
+    "appointment_button_text": {
+      "type": "string"
+    }
+  }
+}

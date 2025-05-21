@@ -1,0 +1,20 @@
+app = "my-strapi-backend"
+primary_region = "ams"
+
+[http_service]
+  internal_port = 1337
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 1
+
+[mounts]
+  source = "strapi_data"
+  destination = "/data"
+  
+[env]
+  HOST = "0.0.0.0"
+  PORT = "1337"
+  DATABASE_CLIENT = "sqlite"
+  DATABASE_FILENAME = "/data/db/database.sqlite"
+  NODE_ENV = "production"

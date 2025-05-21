@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sub_section_sub_section_s",
+  "info": {
+    "displayName": "SubSection "
+  },
+  "options": {},
+  "attributes": {
+    "Subtitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "LinkText": {
+      "type": "string"
+    }
+  }
+}

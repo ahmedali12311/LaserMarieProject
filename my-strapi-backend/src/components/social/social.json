@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_social_socials",
+  "info": {
+    "displayName": "Social Links",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "WhatsApp",
+        "Facebook",
+        "Instagram"
+      ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "icon_color": {
+      "type": "string"
+    }
+  }
+}

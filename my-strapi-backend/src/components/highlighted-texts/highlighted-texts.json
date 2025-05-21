@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_highlighted_texts_highlighted_texts",
+  "info": {
+    "displayName": "highlighted_texts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "is_highlighted": {
+      "type": "boolean"
+    },
+    "color": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

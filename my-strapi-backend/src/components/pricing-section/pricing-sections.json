@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pricing_section_pricing_sections_s",
+  "info": {
+    "displayName": "pricing_sections ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "items",
+      "type": "component",
+      "repeatable": true,
+      "component": "item.items"
+    }
+  }
+}

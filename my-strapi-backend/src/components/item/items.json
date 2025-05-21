@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_item_items",
+  "info": {
+    "displayName": "items"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}

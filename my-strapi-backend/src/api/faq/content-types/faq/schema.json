@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "FAQ ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "FAQ": {
+      "displayName": "FAQ",
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faq"
+    },
+    "PrimaryCTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "primary-cta.primary-cta"
+    },
+    "SecondaryCTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "secondary-cta.secondary-cta"
+    }
+  }
+}

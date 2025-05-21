@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_links_links",
+  "info": {
+    "displayName": "links"
+  },
+  "options": {},
+  "attributes": {
+    "linktext": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    },
+    "isButton": {
+      "type": "boolean"
+    }
+  }
+}

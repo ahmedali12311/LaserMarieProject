@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_news_card_item_news_card_items",
+  "info": {
+    "displayName": "NewsCardItem"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "highlighted_texts_button": {
+      "type": "string"
+    },
+    "highlighted_texts_button_url": {
+      "type": "string"
+    }
+  }
+}

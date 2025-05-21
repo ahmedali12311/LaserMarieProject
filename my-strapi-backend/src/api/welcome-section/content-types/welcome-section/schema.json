@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "welcome_sections",
+  "info": {
+    "singularName": "welcome-section",
+    "pluralName": "welcome-sections",
+    "displayName": "WelcomeSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "MainTitle": {
+      "type": "string"
+    },
+    "MainDescription": {
+      "type": "text"
+    },
+    "MainLink": {
+      "type": "string"
+    },
+    "SubSection": {
+      "displayName": "SubSection ",
+      "type": "component",
+      "repeatable": true,
+      "component": "sub-section.sub-section"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_highlight_card_highlights",
+  "info": {
+    "displayName": "CardHighlight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

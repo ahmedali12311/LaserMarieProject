@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vindsnel_pages",
+  "info": {
+    "singularName": "vindsnel-page",
+    "pluralName": "vindsnel-pages",
+    "displayName": "vindsnelPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "mainContent": {
+      "displayName": "main_content",
+      "type": "component",
+      "repeatable": false,
+      "component": "main-content.main-content"
+    },
+    "ContactSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-section.contact-section"
+    }
+  }
+}

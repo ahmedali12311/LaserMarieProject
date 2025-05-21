@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_list_items_list_items",
+  "info": {
+    "displayName": "list_items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "isBald": {
+      "type": "boolean"
+    }
+  }
+}

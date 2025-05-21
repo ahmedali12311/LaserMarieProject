@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_contact_contacts",
+  "info": {
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "highlighted_texts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "highlighted-texts.highlighted-texts"
+    }
+  }
+}

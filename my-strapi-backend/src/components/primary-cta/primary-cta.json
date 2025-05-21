@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_primary_cta_primary_cta_s",
+  "info": {
+    "displayName": "PrimaryCTA "
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

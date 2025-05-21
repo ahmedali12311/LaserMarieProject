@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_home_sections",
+  "info": {
+    "singularName": "main-home-section",
+    "pluralName": "main-home-sections",
+    "displayName": "MainHomeSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "main_title": {
+      "type": "string"
+    },
+    "highlighted_texts": {
+      "displayName": "highlighted_texts",
+      "type": "component",
+      "repeatable": true,
+      "component": "highlighted-texts.highlighted-texts"
+    },
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "social_links": {
+      "displayName": "Social",
+      "type": "component",
+      "repeatable": true,
+      "component": "social.social"
+    },
+    "primary_button_text": {
+      "type": "string"
+    },
+    "primary_button_link": {
+      "type": "string"
+    }
+  }
+}
